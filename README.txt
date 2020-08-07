@@ -1,0 +1,1 @@
+This is the first week of python projects: Scale and Convert Images using PIL
