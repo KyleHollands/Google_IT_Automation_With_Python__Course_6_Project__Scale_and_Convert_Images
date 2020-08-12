@@ -13,10 +13,10 @@ class scale_and_convert:
         dest = cwd + "/" + input("Enter location of formatted files to be saved: ")
         
         # Acquire attribute information.
-        rotation = int(input("Enter image rotation value (clockwise): "))
+        rotation = int(input("Enter image rotation value: "))
         img_width = int(input("Enter new image width: "))
         img_height = int(input("Enter new image height: "))
-        ext = str(input("Enter extension to be converted to (.jpg, .png, etc): "))
+        ext = str(input("Enter extension to be converted to (jpg, png, etc): "))
         
         # Loop through images in chosen directory, then format according to information provided.
         for image in os.listdir(origin):
